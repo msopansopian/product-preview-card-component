@@ -1,0 +1,90 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: rgb(231, 199, 160);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.card {
+  border-radius: 10px;
+  display: flex;
+  max-width: 666px;
+  max-height: px;
+  background-color: white;
+  margin: 05rem;
+}
+
+.img-container img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+.detail-container {
+  width: 50%;
+  padding: 2rem;
+}
+
+.detail-container .nama-produk {
+  color: tomato;
+  padding-right: 2rem;
+  margin-bottom: 1.75rem;
+}
+
+.detail-container .deskripsi {
+  font-family: "Montserrat";
+  font-size: 14px;
+  color: hsl(228, 29%, 20%);
+  line-height: 22px;
+  margin-bottom: 1.75rem;
+}
+
+.produk {
+  font-family: "Montserrat";
+  letter-spacing: 3px;
+  font-size: 14px;
+  color: hsl(228, 12%, 48%);
+  margin-bottom: 1.75rem;
+}
+
+.harga-container {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  margin-bottom: 1.75rem;
+}
+
+.new-price {
+  color: hsl(158, 36%, 37%);
+}
+
+.old_price {
+  font-family: "Montserrat";
+  color: hsl(228, 12%, 48%);
+  text-decoration: line-through;
+}
+
+.btn {
+  width: 100%;
+  border: 0;
+  outline: 0;
+  background-color: hsl(158, 36%, 37%);
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  font-family: "Montserrat";
+  padding: 1rem 2rem;
+  border-radius: 10px;
+  cursor: pointer;
+}
